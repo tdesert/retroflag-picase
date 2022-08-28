@@ -10,8 +10,8 @@ fi
 #-----------------------------------------------------------
 
 #Check if root--------------------------------------
-apt-get update
-apt-get install rpi.gpio-common python-rpi.gpio
+sudo apt-get update
+sudo apt-get install rpi.gpio-common python-rpi.gpio
 #-----------------------------------------------------------
 
 #RetroFlag pw io ;2:in ;3:in ;4:in ;14:out 1----------------------------------------
