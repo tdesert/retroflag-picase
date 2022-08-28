@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SourcePath=https://raw.githubusercontent.com/RetroFlag/retroflag-picase/master
+SourcePath=https://raw.githubusercontent.com/tdesert/retroflag-picase/develop/osmc-support
 
 #Check if root--------------------------------------
 if [[ $EUID -ne 0 ]]; then
@@ -39,7 +39,7 @@ fi
 #Download Python script-----------------------------
 sudo mkdir "/opt/RetroFlag"
 script=/opt/RetroFlag/SafeShutdown.py
-wget -O $script "$SourcePath/SafeShutdown.py"
+wget -O $script "$SourcePath/osmc_SafeShutdown.py"
 
 #Enable Python script to run on start up------------
 RC=/etc/rc.local
