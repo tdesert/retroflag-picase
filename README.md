@@ -83,6 +83,21 @@ wget -O - "https://raw.githubusercontent.com/RetroFlag/retroflag-picase/master/r
 wget -O - "https://raw.githubusercontent.com/RetroFlag/retroflag-picase/master/batocera_install.sh" | bash
 
 
+### Example for OSMC
+1. Make sure internet connected.
+2. SSH to the device
+3. In the terminal, type the one-line command below(Case sensitive):
+
+wget -O - "https://raw.githubusercontent.com/tdesert/retroflag-picase/master/osmc_install.sh" | bash
+
+
+### Example for default Debian support
+1. Make sure internet connected.
+2. SSH to the device
+3. In the terminal, type the one-line command below(Case sensitive):
+
+wget -O - "https://raw.githubusercontent.com/tdesert/retroflag-picase/master/debian_install.sh" | bash
+
 
 ### Example for lakkatv:
 https://github.com/marcelonovaes/lakka_nespi_power
