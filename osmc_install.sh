@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SourcePath=https://raw.githubusercontent.com/tdesert/retroflag-picase/develop/osmc-support
+SourcePath=https://raw.githubusercontent.com/tdesert/retroflag-picase/master
 
 #Check if root--------------------------------------
 if [[ $EUID -ne 0 ]]; then

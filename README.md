@@ -88,7 +88,7 @@ wget -O - "https://raw.githubusercontent.com/RetroFlag/retroflag-picase/master/b
 2. SSH to the device
 3. In the terminal, type the one-line command below(Case sensitive):
 
-wget -O - "https://raw.githubusercontent.com/tdesert/retroflag-picase/develop/osmc-support/osmc_install.sh" | bash
+wget -O - "https://raw.githubusercontent.com/tdesert/retroflag-picase/master/osmc_install.sh" | bash
 
 
 ### Example for default Debian support
@@ -96,7 +96,7 @@ wget -O - "https://raw.githubusercontent.com/tdesert/retroflag-picase/develop/os
 2. SSH to the device
 3. In the terminal, type the one-line command below(Case sensitive):
 
-wget -O - "https://raw.githubusercontent.com/tdesert/retroflag-picase/develop/osmc-support/debian_install.sh" | bash
+wget -O - "https://raw.githubusercontent.com/tdesert/retroflag-picase/master/debian_install.sh" | bash
 
 
 ### Example for lakkatv:
