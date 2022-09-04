@@ -25,6 +25,10 @@ def poweroff():
 	while True:
 		#self.assertEqual(GPIO.input(powerPin), GPIO.LOW)
 		GPIO.wait_for_edge(powerPin, GPIO.FALLING)
+		# Shutdown any service here
+		# Example:
+		### os.system("sudo systemctl stop mediacenter")
+		### os.system("sudo sleep 5s")
 		os.system("sudo shutdown -r now")
 
 #blinks the LED to signal button being pushed
